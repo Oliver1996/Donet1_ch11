@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+document.getElementById("btn1").addEventListener("click",function()
+{
+	var name=document.getElementById("nameTxt").value;
+	var age=document.getElementById("ageTxt").value;
+	document.getElementById("msgDiv").innerHTML="Hello"+name+"your age is:"+age;
+});
+</script>
+</head>
+
+<body style="background-color:#F4E477">
+<div>
+<img src="65bac937c436cc27ec58da6e89b4242c.jpg" width="53" height="58" style="height:50px;width:50px" /><span style="font-size:24px;position:relative;left:70px">
+<b>Dontnet</b>
+</div>
+<div style="position:relative;top:100px;left:20px">
+<div>
+<form>
+<table>
+<tr><td>Name</td><td style="padding-left:40px"><input id="nameTxt" type="text"/></td></tr>
+<tr><td>Age</td><td style="padding-left:40px"><input id="ageTxt" type="text"/></td></tr>
+<tr><td colspan="2"><button name="btn1" id="btn1" onclick="Hello" ></button></td></tr>
+</table>
+</form>
+</div>
+<div id="msgDiv">
+
+</div>
+</body>
+</html>
